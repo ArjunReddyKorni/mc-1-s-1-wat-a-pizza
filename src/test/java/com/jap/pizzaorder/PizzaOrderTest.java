@@ -51,7 +51,7 @@ public class PizzaOrderTest {
     }
     @Test
     public void givenSizeofPizzaReturnPrice(){
-        float actual = object.calculatePriceOfPizza(1,10.0f);
+        float actual = object.getPriceOfPizzaBasedOnSize(1);
         assertEquals(10.0f,actual,1);
 
     }
